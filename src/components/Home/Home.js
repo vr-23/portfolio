@@ -1,6 +1,6 @@
 import React from 'react'
-import background from '../../assets/background.jpg' // Adjust the path as necessary
-import developer from '../../assets/developer.jpg' // Import developer image
+import background from '../../assets/background.jpg'
+import developer from '../../assets/developer.jpg'
 import './Home.css'
 
 const Home = () => {
