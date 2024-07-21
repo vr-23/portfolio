@@ -1,11 +1,11 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import React from 'react'
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 // Import images
-import volleyballImg from '../assets/volleyball.jpg'; 
-import hackathonImg from '../assets/hackathon1.png';
-import secretaryImg from '../assets/volleyball.jpg';
-import chessImg from '../assets/chess.png';
+import volleyballImg from '../../assets/volleyball.jpg'
+import hackathonImg from '../../assets/hackathon1.png'
+import secretaryImg from '../../assets/volleyball.jpg'
+import chessImg from '../../assets/chess.png'
 
 const achievements = [
   {
@@ -28,7 +28,7 @@ const achievements = [
     description: 'Became a chess champion at the age of 8.',
     image: chessImg,
   },
-];
+]
 
 const Achievements = () => {
   return (
@@ -37,7 +37,10 @@ const Achievements = () => {
         <h2 className="text-3xl font-bold mb-8 text-white">Achievements</h2>
         <Carousel showArrows={true} showThumbs={false}>
           {achievements.map((achievement, index) => (
-            <div key={index} className="p-6 bg-white rounded-lg shadow-lg relative">
+            <div
+              key={index}
+              className="p-6 bg-white rounded-lg shadow-lg relative"
+            >
               <img
                 src={achievement.image}
                 alt={achievement.title}
@@ -52,7 +55,7 @@ const Achievements = () => {
         </Carousel>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Achievements;
+export default Achievements
