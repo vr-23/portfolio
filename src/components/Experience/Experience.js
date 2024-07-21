@@ -23,7 +23,10 @@ const Experience = () => {
                 <p className="card-duration">{exp.duration}</p>
                 <p className="card-location">{exp.location}</p>
                 {expandedIndex === index && (
-                  <p className="card-responsibilities">{exp.responsibilities}</p>
+                  exp.responsibilities.map((resp,index)=>(
+                    <p className="card-responsibilities">{exp.responsibilities}</p>
+                  ))
+                  
                 )}  
                 <button 
                   className="read-more-btn" 
