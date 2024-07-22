@@ -1,36 +1,43 @@
-import React from 'react'
-
-const projects = [
-  {
-    title: 'Project 1',
-    description: 'Description of project 1',
-  },
-  {
-    title: 'Project 2',
-    description: 'Description of project 2',
-  },
-  // Add more projects here
-]
+import React, { useState } from 'react';
+import './Projects.css'; // Import your CSS file for styling
+import { projects } from '../../Static/static'; // Adjust the import path as needed
 
 const Projects = () => {
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
+
   return (
-    <section id="projects" className="bg-white py-12">
+    <section id="projects" className="py-12 bg-gray-100">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-8">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="accordion">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
-            >
-              <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-              <p>{project.description}</p>
+            <div key={index} className="accordion-item">
+              <div className="accordion-header" onClick={() => handleToggle(index)}>
+                <h3 className="accordion-title">{project.title}</h3>
+                <button className="toggle-btn">
+                  {expandedIndex === index ? '▲' : '▼'}
+                </button>
+              </div>
+              {expandedIndex === index && (
+                <div className="accordion-content">
+                  <p>{project.description}</p>
+                  {project.githubLink && (
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
+                      View on GitHub
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
