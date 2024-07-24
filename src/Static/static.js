@@ -100,7 +100,7 @@ gathered feedback to refine the interface.`,
     company: "Archimaze",
     location: "Hyderabad, India", // Update with actual location
     role: "Unity 3D Intern",
-    duration: "Sept 2019 - Jan 2019",
+    duration: "Sept 2018 - Jan 2019",
     image: archimazaLogo,
     responsibilities: [
       `Developed AR and VR applications using Unity 3D and successfully integrated AR applications into a React-based
