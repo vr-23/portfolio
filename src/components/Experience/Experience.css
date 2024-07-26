@@ -67,10 +67,9 @@
 }
 
 .card-responsibilities {
-  margin-top: 16px;
+  margin-top: 8px;
   font-size: 0.875rem;
   color: #555;
-  padding: 0 16px;
-  text-align: center; /* Center align text within the responsibilities section */
+  /* padding: 0 16px; */
 }
 
