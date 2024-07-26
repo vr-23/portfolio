@@ -24,7 +24,7 @@ const Experience = () => {
                 <p className="card-location">{exp.location}</p>
                 {expandedIndex === index && (
                   exp.responsibilities.map((resp,index)=>(
-                    <p className="card-responsibilities">{exp.responsibilities}</p>
+                    <p className="card-responsibilities">{resp.responsibilities}</p>
                   ))
                   
                 )}  
