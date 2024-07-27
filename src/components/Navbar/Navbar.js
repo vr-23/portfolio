@@ -13,6 +13,15 @@ const Navbar = () => {
           <a href="#skills" className="px-4">
             Skills
           </a>
+          <a href="#education" className="px-4">
+            Education
+          </a>
+          <a href="#experience" className="px-4">
+            Experience
+          </a>
+          <a href="#certifications" className="px-4">
+            Certifications
+          </a>
           <a href="#projects" className="px-4">
             Projects
           </a>

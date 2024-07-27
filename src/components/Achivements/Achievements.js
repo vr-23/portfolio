@@ -34,7 +34,7 @@ const Achievements = () => {
   return (
     <section id="achievements" className="animated-background py-12">
       <div className="container mx-auto text-center relative z-10">
-        <h2 className="text-3xl font-bold mb-8 text-white">Achievements</h2>
+        <h2 className="text-3xl font-bold mb-8">Achievements</h2>
         <Carousel showArrows={true} showThumbs={false}>
           {achievements.map((achievement, index) => (
             <div
