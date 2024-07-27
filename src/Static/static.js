@@ -3,13 +3,26 @@ import cognizantLogo from "../assets/cognizantLogo.png";
 import archimazaLogo from "../assets/ArchimazeLogo.jpeg";
 import vinxLogo from "../assets/vinxLogo.jpeg";
 
+export const userName = 'Vishnu Vardhan Reddy Sudireddy';
+export const userRoles = 'UI Developer | Full-Stack Developer';
+export const userDescription = `I am a passionate UI and Full-Stack Developer with extensive
+            experience in creating dynamic and user-centric web applications. My
+            expertise spans across modern technologies such as React, Angular,
+            and Node.js, enabling me to build scalable and efficient solutions.
+            I thrive in collaborative environments and am dedicated to
+            delivering high-quality software that meets user needs and drives
+            business success.`;
+
+export const education_text = 'Education';
+export const gpa_text = 'GPA';
+
 export const certifications = [
   {
     title: "Azure Data Fundamentals",
     issuer: "Microsoft Certified",
     date: "May 2024",
     certificateURL:
-      "https://www.linkedin.com/in/vishnu-vardhan-reddy-sudireddy-363839130/overlay/1716423106902/single-media-viewer/?profileId=ACoAACAo0bsBDIAyxSI8Hb46DwoGbNSZ2Ny6pbU",
+      "https://learn.microsoft.com/en-us/users/vishnuvardhanreddysudireddy-5688/credentials/f968fa09b83d7fe3?ref=https%3A%2F%2Fwww.linkedin.com%2F",
   },
   {
     title: "SQL Advanced",

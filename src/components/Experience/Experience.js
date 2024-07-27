@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Experience.css'; // Import your CSS file for styling
+import './Experience.css';
 import { experiences } from '../../Static/static';
 
 const Experience = () => {
