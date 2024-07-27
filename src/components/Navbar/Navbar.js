@@ -1,9 +1,9 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar p-4 text-white">
+    <nav className="navbar fixed top-0 w-full p-4 text-white z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold">My Portfolio</div>
         <div>
@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
