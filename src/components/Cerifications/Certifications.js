@@ -2,10 +2,14 @@ import React from 'react';
 import './Certifications.css'; // Import your CSS file for styling
 import { certifications } from '../../Static/static';
 
-
 const Certifications = () => {
   const handleViewCertificate = (url) => {
-    window.open(url, '_blank');
+    console.log(url)
+    if (url === 'Oracle') {
+      window.open(`${process.env.PUBLIC_URL}/oracleGenerativeAiCertificate.pdf`, '_blank');
+    } else {
+      window.open(url, '_blank');
+    }
   };
 
   return (

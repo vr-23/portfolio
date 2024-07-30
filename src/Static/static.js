@@ -36,6 +36,12 @@ export const certifications = [
     date: "May 2024",
     certificateURL: "https://www.hackerrank.com/certificates/bd4f429e042b",
   },
+  {
+    title: "Generative AI Certified Professional",
+    issuer: "Oracle",
+    date:"July 2024",
+    certificateURL: 'Oracle'
+  }
 ];
 
 export const education = [
