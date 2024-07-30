@@ -4,7 +4,6 @@ import { certifications } from '../../Static/static';
 
 const Certifications = () => {
   const handleViewCertificate = (url) => {
-    console.log(url)
     if (url === 'Oracle') {
       window.open(`${process.env.PUBLIC_URL}/oracleGenerativeAiCertificate.pdf`, '_blank');
     } else {
