@@ -103,16 +103,17 @@ timelines by 20%. Collaborated with non-technical professionals, achieving a hig
     company: "Vinx Technology Solutions",
     location: "Hyderabad, India",
     role: "IoT and ML Intern",
-    duration: "May 2019 - Jun 2019",
+    duration: "May 2019 - Aug 2020",
     image: vinxLogo,
     responsibilities: [
       `Designed and developed a comprehensive home automation system by integrating IoT devices and sensors, enabling
-real-time monitoring and control to enhance home efficiency and security. Collaborated with cross-functional teams
-to ensure seamless integration of hardware and software components.`,
-      `Built an interactive and user-friendly webpage using React and Redux, focusing on responsive design and seamless
-user experience for managing home automation tasks. Implemented advanced state management, optimized
-performance, and enhanced UI/UX through intuitive controls and interactive elements. Conducted user testing and
-gathered feedback to refine the interface.`,
+real-time monitoring and control to enhance home efficiency and security.`,
+`Collaborated with cross-functional teams to ensure seamless integration of hardware and software components.`,
+`Built an interactive and user-friendly webpage using React and focusing on responsive design and seamless user
+experience for managing home automation tasks.`,
+`Implemented advanced state management, optimized performance, and enhanced UI/UX through intuitive controls
+and interactive elements.`,
+`Conducted user testing and gathered feedback to refine the interface.`
     ],
   },
   {
